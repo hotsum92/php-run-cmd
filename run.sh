@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat - | sed "1ithis is sample.sh<br><br>Params:<br>$@<br>STDIN:<br>"
+cat - | sed "1ithis is sample.sh\n\nParams:\n$@\nSTDIN:\n"

@@ -1,5 +1,6 @@
 <?php
 
+header("Content-Type: text/plain");
 
 if(isset($_POST['STDIN'])){
   $body = $_POST['STDIN'];
